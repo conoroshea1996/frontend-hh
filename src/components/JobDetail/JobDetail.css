@@ -1,0 +1,27 @@
+.JobRow{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.JobRow a{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: silver;
+    border-bottom: solid silver 2px;
+    text-decoration: none;
+}
+.JobRow a:hover{
+    background: rgba(75, 78, 78, 0.259);
+}
+
+.center-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

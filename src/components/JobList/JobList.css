@@ -1,0 +1,54 @@
+.JobsList{
+    width: 90%;
+    margin: auto;
+}
+button:focus {outline:0;}
+.JobListTitles{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: silver;
+    border-bottom: solid silver 2px;
+}
+
+.search-box{
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.search-box form {
+    display:flex;
+    flex-direction:row;
+  }
+  .search-box input {
+    flex-grow:1;
+    border:none;
+    padding: 10px;
+    padding-left: 50px;
+  }
+  
+  .search-box input:focus {
+    outline: none;
+  }
+  .search-box form button {
+    background: transparent;
+    position: absolute;
+    height: 33px;
+    width: 50px;
+    border: none;
+}
+.category-btns button{
+    background: lightgray;
+    padding: 2px 5px; 
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.category-btns button:hover{
+    cursor: pointer;
+}
+.container{
+    width:90%;
+    margin: auto;
+}
