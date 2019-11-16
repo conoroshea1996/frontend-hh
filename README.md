@@ -1,6 +1,8 @@
 ## To Run project
-Simply unzip zip file and run npm install.
-Then run the project using 'Npm start' or 'yarn start'
+- Clone repo or download project 
+- cd into project
+- run npm install.
+- To start run npm start
 
 
 ## Project link
